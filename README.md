@@ -1,16 +1,66 @@
-# duydunmu_app
 
-A new Flutter project.
+# Duydun Mu?
 
-## Getting Started
+Bitcoin haberlerini alabileceğiniz bir telefon uygulamasıdır. 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Ekran Görüntüleri
+Haber Akışı|Haber Detayı|
+:-:|:-:|
+![](https://github.com/flyboy12/duydunmu_app/blob/main/github-image/Screenshot_1633203013.png?raw=true)|![](https://github.com/flyboy12/duydunmu_app/blob/main/github-image/Screenshot_1633203019.png?raw=true)
+## Bilgisayarınızda Çalıştırın
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Projeyi klonlayın
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  git clone https://github.com/flyboy12/duydunmu_app.git
+```
+
+Gerekli paketleri yükleyin
+
+```bash
+flutter pub get  
+```
+
+
+  
+## Özellikler
+
+- En güncel haberlere erişim
+- Haberlerin kaynağına ulaşım
+
+
+  
+## Kütüphaneler & Kullanılan Araçlar
+
+`http`
+
+`url_launcher`
+
+
+  
+## API Kullanımı
+
+#### Tüm öğeleri getir
+
+```http
+  GET /api/items
+```
+
+| Parametre | Tip     | Açıklama                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` |  |
+
+#### Öğeyi getir
+
+```http
+  GET newsapi.org/v2/everything
+```
+
+| Parametre | Tip     | Açıklama                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | bitcoin |
+| `language`| `string` | en |
+
+
+  
