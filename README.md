@@ -49,7 +49,7 @@ flutter pub get
 
 | Parametre | Tip     | Açıklama                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` |  |
+| `api_key` | `string` | 7b468a18233e4cd8952d83f92e40c10f |
 
 #### Öğeyi getir
 
